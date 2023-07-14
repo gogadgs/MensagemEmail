@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta name="theme-color" content="#456325">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio site Dash</title>
+        <meta name="description" content="Portfolio site dash" author="Douglas Godois dos Santos">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./assets/CSS/style.css">
+        <link rel="website icon" type="favicon/x-image/" href="./assets/IMG/favicon.svg">
+     
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="https://portfolio-rockseat.vercel.app/">Inicio</a></li>
+                    <li><a href="https://gogadgs.github.io/Portfolio/">Portfolio</a></li>
+                    <li><a href="https://www.linkedin.com/in/douglasgodoisdossantos/">Linkedin</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <form id="contatoFormulário" method="POST">
+                    <img src="./assets/IMG/arte douglas.jpg"  alt="usuário"></img>
+                    <h1>Douglas Godois dos Santos</h1>
+                    <label for="name">Nome:</label>
+                    <input type="text" placeholder="Digite seu nome" id="name" required>
+                    <label for="email">Digite seu email para contato:
+
+                    </label><input id="email" placeholder="Seu Email" required type="email">
+                    
+        <label for="message">Mensagem:</label>
+        <textarea id="message" required></textarea>
+                    <input id="enviar" type="submit" name="Enviar" value="Enviar">
+                </form>
+            </section>
+            <section></section>
+        </main>
+        <footer>
+            &copy; Douglas Godois dos Santos
+        </footer>
+       
+        
+      
+        <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="module" src="./assets/js/email.js"></script>
+    </body>
+</html>
